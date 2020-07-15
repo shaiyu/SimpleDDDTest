@@ -40,6 +40,7 @@ namespace UnitTestService
 
 
         [TestMethod]
+        [DataRow("李老师", "语文老师")]
         [DataRow("小明", "小学生")]
         [DataRow("小明", "大学生")]
         [DataRow("小康", "中学生")]
